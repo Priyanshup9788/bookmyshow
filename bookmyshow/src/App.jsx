@@ -1,14 +1,14 @@
 
 import './App.css'
 import Header from './assets/Components/Header'
-import Slides from './assets/Components/Slides'
+import Home from './assets/Components/Home'
 
 function App() {
 
   return (
     <>
     <Header/>
-    <Slides/>
+    <Home/>
     </>
   )
 }

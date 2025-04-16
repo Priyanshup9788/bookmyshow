@@ -6,7 +6,7 @@ const Slides = () => {
     <Carousel className='mt-2'>
       <Carousel.Item>
         <div className='d-flex flex-wrap justify-content-center'>
-        <img src='https://assets-in-gm.bmscdn.com/promotions/cms/creatives/1726038890736_playcardnewweb.jpg' className='rounded-3'/>
+        <img src='https://assets-in-gm.bmscdn.com/promotions/cms/creatives/1726038890736_playcardnewweb.jpg' className='rounded-3 slide-img'/>
         </div>
       </Carousel.Item>
       <Carousel.Item>
