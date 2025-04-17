@@ -7,13 +7,14 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import icon from '/images/icon.png'
 import { IoIosOptions } from "react-icons/io";
 import { FaChevronDown } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
         <header>
             <Navbar expand="lg" className="bg-body-tertiary">
                 <Container >
-                    <Navbar.Brand href="#"><img className='icon' src={icon} /></Navbar.Brand>
+                    <Link to="/"><Navbar.Brand href="#"><img className='icon' src={icon} /></Navbar.Brand></Link> 
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll" className='justify-content-between'>
 
