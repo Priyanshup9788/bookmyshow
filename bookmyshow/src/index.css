@@ -17,3 +17,38 @@
 .cast_img{
   height: 8rem;
 }
+
+.form-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+.form-container h2 {
+  color: #d81b60;
+  text-align: center;
+}
+
+.form-control {
+  border-radius: 8px;
+  background-color: #f8bbd0;
+  border: 1px solid #f48fb1;
+}
+
+.form-control:focus {
+  border-color: #f06292;
+  box-shadow: 0 0 0 0.2rem rgba(240, 98, 146, 0.25);
+}
+
+.btn-pink {
+  background-color: #f06292;
+  color: white;
+  border-radius: 8px;
+}
+
+.btn-pink:hover {
+  background-color: #d81b60;
+}
